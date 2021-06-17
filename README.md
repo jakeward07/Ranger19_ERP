@@ -1,7 +1,7 @@
 # Ranger19_ERP
 PHP Based Enterprise Resource Planning (ERP) system. 
 
-HOW TO USE?
+**HOW TO USE?**
 
 1. Drop contents into your htdocs on xampp/dev server.
 2. Create a database on your MYSQL database and import the ERP_DB.sql file.
