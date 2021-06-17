@@ -1,5 +1,5 @@
 # Ranger19_ERP
-PHP Based Enterprise Resource Planning (ERP) system. 
+PHP Based Enterprise Resource Planning (ERP) system. [OpenSource]
 
 **HOW TO USE?**
 
