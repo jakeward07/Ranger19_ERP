@@ -1,0 +1,4 @@
+Customer,Invoice,Branch,"Customer PO","Customer Job","Invoice Date","Amount exc. GST","Amount inc. GST"
+149679,100001,228,po,,2020-07-07,3723.5000,4095.8500
+149679,100002,228,po,,2020-07-07,1927.3500,2120.0850
+149679,100003,228,PO,,2020-07-08,552.3500,607.5850

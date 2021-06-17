@@ -1,0 +1,728 @@
+body {
+    font-family: sans-serif;
+ position: absolute;
+    top: 50px;
+    left: 222px;
+    right: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.homeMod {
+    background-color: grey;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.homeMod:hover {
+    cursor: pointer;
+}
+
+.homeMod h4 {
+    background-color: black;
+margin: 0;
+    padding: 5px;
+  
+}
+
+.homeLinks {
+   padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    display: none;
+   
+}
+
+.homeLinks button {
+    background:  none;
+    border: solid;
+    border-color: white;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    transition: .5s;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+    margin-left: 0px;
+    }
+    .left {
+        float: left;
+        text-align: right;
+    }
+    
+    .right {
+        float: left;
+        text-align: right;
+    }
+    .searchBox {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+ 
+        
+    }
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.left {
+    float: left;
+    text-align: right;
+    margin-left: 20px;
+}
+
+.right {
+    float: right;
+    text-align: right;
+    margin-right: 5%;
+}
+
+a input {
+    border: solid;
+    border-color: blue;
+    text-decoration: underline;
+    color: blue;
+   
+}
+
+a input:hover {
+    cursor: pointer;
+}
+
+input {
+    width: 350px;
+    height: 30px;
+    margin-top: 10px;
+    outline-color: darkorange;
+ background-color: white;
+
+}
+
+input:disabled {
+    background-color: rgb(245,245,240);
+}
+
+table a {
+    color: blue;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 349px;
+    height: 100px;
+    font-family: sans-serif
+    
+}
+
+textarea:required {
+     outline: solid;
+    outline-color: red;
+    outline-width: 2px;
+    font-family: sans-serif;
+   
+}
+
+select {
+    width: 354px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.submit {
+    background-color: rgb(255,120,60);  
+    border: solid;
+    border-color: white;
+    padding: 10px;
+    transition: .4s;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    outline: none;
+    color: white;
+    
+}
+
+.submit:hover {
+box-shadow: 6px 6px 15px 4px  rgba(0,0,0,0.5);
+    color: white;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 40px;
+   
+    
+}
+
+.blackout {
+
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1; 
+    transition: .5s;
+    
+}
+
+.loading {
+    background-color: lawngreen;
+    border: solid;
+    border-color: green;
+    border-radius: 20px;
+    border-width: 2px;
+    width: 400px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+ 
+.searchBox {
+    position: absolute;
+    z-index: 5;
+background: rgb(255,144,0);
+background: linear-gradient(225deg, rgba(255,144,0,1) 0%, rgba(255,169,0,1) 100%);
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+   margin-top: auto;
+    margin-bottom: auto;
+    border: solid;
+    border-color: white;
+    padding: 5px;
+    color: white;
+  
+  
+     overflow-x: hidden; 
+                overflow-x: auto; 
+            padding-bottom: 20px;
+   
+
+     
+}
+
+.searchBox textarea {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    height: 200px;
+}
+
+.searchBox h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.searchBox table {
+    width: 100%;
+    text-align: center; 
+}
+
+.searchBox form {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.searchBox input {
+    height: 22px;
+    width: 200px;
+}
+
+.searchBox button {
+    margin-left: 10px
+}
+
+.searchBox select {
+    height: 27px;
+    width: 204px;
+}
+
+.searchBox .leftForm {
+    float: left; 
+}
+
+.searchBox .rightForm {
+    float: right;
+    margin-left: 5px;
+}
+
+.searchBox h3 {
+    text-align: center;
+} 
+
+.searchBox .center {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    text-align: right;
+    
+   
+}
+
+.bodystrip {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+.hoverBox:hover {
+    cursor: pointer;
+}
+
+.bodystrip button {
+   
+    color: white;
+ padding: 6px;
+    font-weight: 600;
+    border: none;
+    background: rgb(255,97,0);
+background: linear-gradient(180deg, rgba(255,97,0,1) 0%, rgba(255,140,0,1) 100%);
+transition: .5s;
+    outline: none;
+}
+
+.bodystrip button:disabled {
+    background: none;
+    background-color: grey;
+    color: darkgrey;
+}
+
+.bodystrip button:disabled:hover {
+    background: grey;
+    cursor: not-allowed;
+}
+
+.bodystrip button:hover{
+background: rgb(255,135,0);
+}
+
+#landlordSearch {
+display: none;
+}
+
+.searchBox .exit {
+  right: 10px;
+    top: 10px;
+    position: absolute;
+}
+.qexit {
+    float: right;
+    z-index: 10;
+    margin-top: 60px;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: solid;
+    border-color: darkorange;
+    background:none;
+    color: white;
+    font-weight: 850;
+    font-size: 25px;
+    transition: .4s;
+    outline: none;
+    text-align: center;
+    
+}
+input:required {
+     border: solid;
+   border-color: red;
+    border-width: 2px;
+
+   
+}
+
+
+
+.success {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    background-color: palegreen;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(0,200,0);
+    border-width: 2px;
+    font-weight: 600;
+}
+
+.fail2 {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    background-color: rgb(150,0,0);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(255,0,0);
+    border-width: 2px;
+    font-weight: 600;
+    color: white;
+}
+.fail h2 {
+    margin: 0;
+}
+.fail {
+    background-color: rgb(235,0,13);
+    position: absolute;
+    z-index: 1;
+    left: 280px;
+    right: 0;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    top: 150px;
+    bottom: 0;
+    margin-bottom: auto;
+    height: 120px;
+    
+}
+
+.fail button { 
+    background: none;
+    border: solid;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: .4s;
+    color: white;
+}
+
+.fail button:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+
+.linkBox {
+    text-decoration: underline;
+    color: blue;
+}
+
+.linkBox:hover {
+    cursor: pointer;
+}
+
+input[type="date"] {
+    font-family: sans-serif;
+}
+input[type="checkbox"] {
+   width: 15px;
+    vertical-align: -10px;
+}
+
+select:required {
+ outline: solid;
+    outline-width: 2px;
+    outline-color: red;
+}
+
+h3 {
+    text-align: center;
+}
+
+.adminSelect {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.admForm {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+input[type="radio"] {
+    width: 20px;
+    vertical-align: -10px;
+}
+
+.admSubmit {
+    background: none;
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgba(0,0,0,0.5);
+    font-weight: 600;
+    
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.help:hover {
+    cursor:help;
+}
+
+.center {
+  margin-left: auto;
+    margin-right: auto;
+    display: table;
+    text-align: right;
+    
+}
+
+.center input:hover {
+    cursor: help;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.th, .td {
+
+  padding: 8px;
+    border-collapse: collapse;
+}  
+
+.tr:nth-child(even) {background-color: rgb(175,175,175);}
+
+.tr:hover {cursor: pointer;
+}
+.tr {
+    background-color: white;
+}
+
+.table a {
+    color: black;
+    text-decoration: underline;
+}
+
+.hover {
+      color: blue;
+    text-decoration: underline;
+}
+
+.hover:hover{
+    cursor: pointer;
+  
+}
+
+input:read-only {
+   color: rgb(84, 84, 84);
+    cursor: default;
+    background-color: rgb(235, 235, 228);
+    outline: none;
+    border: solid;
+    border-width: 0.5px;
+    border-color: grey;
+    padding-left: 2px;
+}
+
+
+
+.new {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 100%;
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    z-index: 1;
+    
+background: linear-gradient(180deg, rgba(255,144,0,1) 0%, rgba(255,259,0,1) 100%);
+transition: .5s;
+}
+
+.new:hover {
+    background: rgb(0,255,0);
+}
+
+.diary {
+    position: absolute;
+    margin-top: 100px;
+  left: 300px;
+    top: 250px;
+    right: 20px;
+} 
+ 
+.diary .entry {
+    position: relative;
+    background-color: darkorange;
+    color: white;
+    padding: 5px;
+     border: solid;
+    border-color: black;
+    border-radius: 5px;
+    padding-right: 110px;
+  
+}
+
+.diary .open {
+    float: right;
+    width: 100px;
+    background-color: white;;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0
+}
+.open img {
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.open .butbo {
+    display: none;
+    transition: .4s
+}
+.open:hover .butbo {
+    display: block;
+    background-color: rgba(0,0,0,0.6);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+   cursor: pointer;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+.open h4 {
+ color: black;
+  
+    left: 0;
+    right: 0;
+   top: 50%;
+transform: translateY(-5%);
+    bottom: 0;
+    position: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    text-align: center;
+    width: 100%;
+  z-index: 1;
+    color: white;
+    
+}
+.open:hover h4 {
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+}
+.downloads{
+    margin-top: 450px
+}
+
+.dl {
+    text-align: center;
+    background-color: darkorange;
+    margin-left: 15px;
+    border: solid;
+       border-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+
+.sale {
+   margin-left: 
+    width: 100%;
+    position: relative;
+    height: 220px;
+}
+
+
+.homeLinks button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.sug:hover {
+    cursor: pointer;
+ 
+}
+ 
+.radioStyle input[type=radio]:hover {
+    background-color: none;
+    border: solid;
+    border-color: yellow;
+    border-width: 10px;
+}
+
+.blogCard {
+background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(203,203,203,1) 100%);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid darkorange; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

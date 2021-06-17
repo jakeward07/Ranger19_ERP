@@ -1,0 +1,74 @@
+body {
+font-family: sans-serif;
+    
+}
+
+.top_bar {
+   background-color: rgb(35,35,35);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
+    z-index: 1;
+}
+
+.user {
+    text-align: right;
+  
+  color: white;
+    font-size: 20px;
+    padding: 10px;
+      -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+.logo {
+    color: white;
+    float: left;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: underline;
+    font-family: monospace;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.dropdown {
+    top: 45px;
+    position: absolute;
+    background-color: darkgray;
+    width: 300px;
+    right: 0;
+    height: 200px;
+    display: none;
+}
+
+.dropdown button {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 35px;
+    background: none;
+    border: solid;
+    border-color: red;;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.dropdown button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.dropdown a {
+    text-decoration: none;
+}
+ 

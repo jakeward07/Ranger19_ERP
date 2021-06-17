@@ -1,0 +1,124 @@
+
+     h1 {
+        text-align: center;
+    }
+    
+    table {
+        width: 100%;
+        text-align: center;
+        table-layout: fixed;
+    }
+    
+    thead {
+       table-layout: fixed;
+        width: 100%;
+        
+    }
+
+
+    
+    h4 {
+        margin: 0;
+    }
+    body {
+        font-family: sans-serif;
+        margin: 0;
+    }
+    .lines {
+        height: 60px;
+        
+    }
+    .linesTable {
+        border-collapse: collapse;
+      
+    }
+    
+    
+    .linesTable th {
+        background-color: white;
+        border-bottom: dashed;
+        padding-top: 30px
+    }
+
+.linesTable tr {
+    height: 60px;
+    page-break-after: always;
+    page-break-inside: avoid;
+        
+}
+
+.linesTable tr:nth-child(odd) {
+    background-color: rgb(195,195,195);
+}
+
+.logo {
+    width: 250px;
+    padding: 20px;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.details {
+    border: solid;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 12px
+}
+
+.total {
+    float: right;
+    margin-top: 60px;
+    width: 300px;
+    text-align: right;
+    margin-right: 50px;
+    border: solid;
+    border-radius: 10px;
+    padding: 10px;
+    
+    
+}
+@media print {
+    body {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media print {
+    .total {
+      page-break-inside: avoid;
+       page-break-after: always;
+  
+        
+    }
+} 
+@media print {
+    .wrapper {
+      page-break-inside: avoid;
+       page-break-after: always;
+     position: fixed;
+        bottom: 0;
+        
+    }
+}
+
+.wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+   
+   
